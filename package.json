@@ -1,13 +1,12 @@
 {
-  "name": "tracking",
+  "name": "@abhi7652/heatmap-tracker",
   "version": "1.0.0",
+  "description": "Mouse tracking script for heatmaps",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
   },
-  "keywords": [],
-  "author": "Abhishan",
-  "license": "MIT",
-  "description": "A simple client-side heatmap mouse tracker",
-  "type": "module"
+  "author": "Abhi",
+  "license": "MIT"
 }
