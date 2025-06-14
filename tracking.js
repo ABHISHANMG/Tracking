@@ -9,20 +9,20 @@
 
   console.log("Mouse tracking initialized. Sending data every 5 seconds...");
 
-  setInterval(() => {
-    if (trackedData.length === 0) return;
+  // setInterval(() => {
+  //   if (trackedData.length === 0) return;
 
-    console.log("Sending data:", trackedData); // ✅ Optional: see batch before send
+  //   console.log("Sending data:", trackedData); // ✅ Optional: see batch before send
 
-    fetch("https://your-api-endpoint.com/api/track", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        points: trackedData,
-        page: window.location.href,
-      }),
-    });
+  //   fetch("https://your-api-endpoint.com/api/track", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/json" },
+  //     body: JSON.stringify({
+  //       points: trackedData,
+  //       page: window.location.href,
+  //     }),
+  //   });
 
-    trackedData.length = 0;
-  }, 5000);
+  //   trackedData.length = 0;
+  // }, 5000);
 })();
