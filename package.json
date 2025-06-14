@@ -1,12 +1,17 @@
 {
   "name": "heatmap-tracker-dev",
-  "version": "1.0.1",
-  "description": "Mouse tracking script for heatmaps",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Heatmap tracking script for web analytics",
+  "main": "tracking.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ABHISHANMG/Tracking.git"
+  },
+  "keywords": ["heatmap", "tracker", "analytics"],
   "author": "Abhi",
   "license": "MIT",
-  "dependencies": {
-    "heatmap-tracker-dev": "^1.0.1"
+  "publishConfig": {
+    "access": "public"
   }
 }
