@@ -8,5 +8,6 @@
   "keywords": [],
   "author": "Abhishan",
   "license": "MIT",
-  "description": "A simple client-side heatmap mouse tracke"
+  "description": "A simple client-side heatmap mouse tracker",
+  "type": "module"
 }
